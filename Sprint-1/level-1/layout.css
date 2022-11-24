@@ -1,0 +1,112 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+
+header {
+  background-color: black;
+  padding: 15px;
+}
+
+/*nav*/
+
+#nav-header {
+  display: flex;
+  background-color: purple;
+  height: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 15px;
+}
+
+.small-header {
+  background-color: pink;
+  width: 15%;
+  height: 22px;
+}
+
+.big-header {
+  background-color: pink;
+  width: 65%;
+  height: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*section*/
+
+#section-header {
+  display: flex;
+  background-color: orange;
+  height: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.box-header {
+  background-color: yellow;
+  width: 100%;
+  height: 22px;
+}
+
+/*MAIN*/
+
+main {
+  display: flex;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*section*/
+
+#section-main {
+  display: flex;
+  background-color: darkblue;
+  width: 66%;
+  height: 2rem;
+}
+
+.small-main {
+  background-color: blue;
+  width: 40%;
+  height: 0.5rem;
+}
+
+.big-main {
+  background-color: aqua;
+  width: 80%;
+  height: 0.5rem;
+}
+
+/*aside*/
+
+#aside-main {
+  background-color: red;
+  width: 32%;
+  height: 2rem;
+}
+
+.box-aside {
+  background-color: orangered;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: black;
+  padding: 15px;
+}
